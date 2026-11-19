@@ -2,6 +2,12 @@
 
 HTML + CSS + JavaScript 单人经营小游戏，无需安装依赖，无广告，无外部素材请求。
 
+## 在线试玩
+
+[打开姚舒琴的小食铺](https://yukang80.github.io/yaoshuqin-shop/)
+
+用小米手机或电脑浏览器打开上面的链接即可游玩，无需安装。
+
 ## 马上开始
 
 双击 index.html，用浏览器打开。电脑可以用鼠标，手机可以用触屏。
@@ -24,7 +30,9 @@ HTML + CSS + JavaScript 单人经营小游戏，无需安装依赖，无广告�
 
 本版已做窄屏触摸布局；营业时客人区域会固定在上方，滑动制作区也能看到订单。尚未在真实小米手机上测试。
 
-目前没有发布到 GitHub。之后上传本目录全部文件到 GitHub 仓库，在 Settings → Pages 中选择 Deploy from a branch、main、/(root) 并保存。部署完成后用手机浏览器打开生成的网址即可。
+已经发布到 GitHub Pages，发布来源为 main 分支的根目录。更新游戏文件后，GitHub 会自动重新部署。
+
+仓库：https://github.com/yukang80/yaoshuqin-shop
 
 官方说明：https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
 
