@@ -1,0 +1,20 @@
+{
+  "name": "姚舒琴的小食铺",
+  "short_name": "姚老板的小店",
+  "description": "经营街角小食铺，认真做饭，快乐开店。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#edf1e7",
+  "theme_color": "#255e50",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

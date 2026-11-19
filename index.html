@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#255e50"><meta name="description" content="当一天小店老板！帮姚舒琴接单、制作美食、赚取金币，把街角小铺经营成热门食堂。"><title>姚舒琴的小食铺</title><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="game-shell">
+<header class="topbar"><div class="brand"><span class="brand-mark">姚</span><div><h1>姚舒琴的小食铺</h1><p>一间小店，热气腾腾的每一天。</p></div></div><button class="icon-btn" id="help" aria-label="玩法与设置">?</button></header>
+<div class="dashboard"><div class="stat"><span>我的金币</span><strong><i class="coin">¥</i> <b id="coins">80</b></strong></div><div class="stat"><span>小店口碑</span><strong><em>★</em> <b id="rating">4.5</b><small>/ 5</small></strong></div><div class="stat day-stat"><span>营业日记</span><strong>第 <b id="day">1</b> 天</strong></div></div>
+<div class="play-layout"><section class="shop-side" aria-label="店铺和顾客">
+<div class="scene">
+<div class="scene-label"><span id="open-status">准备开张</span><span>晴 · 宜认真生活 ☀</span></div>
+<svg class="shop-art" viewBox="0 0 640 370" role="img" aria-label="街角小食铺，姚舒琴老板在柜台后等你一起开张">
+<defs><pattern id="wall" width="40" height="24" patternUnits="userSpaceOnUse"><path d="M0 23H40M20 0V23" stroke="#e5dfcd" fill="none" stroke-width="1"/></pattern><pattern id="awning" width="76" height="80" patternUnits="userSpaceOnUse"><rect width="38" height="80" fill="#e57b58"/><rect x="38" width="38" height="80" fill="#fff2d5"/></pattern><linearGradient id="window" x2="0" y2="1"><stop stop-color="#7ba894"/><stop offset="1" stop-color="#abc5a7"/></linearGradient></defs>
+<rect width="640" height="370" fill="#e4eddd"/><circle cx="536" cy="55" r="26" fill="#f9d97d"/><path d="M0 100Q70 80 118 110V310H0M640 98Q587 80 558 120V320H640" fill="#c6d7c0"/><rect x="62" y="70" width="516" height="282" rx="7" fill="#f9f2de"/><rect x="62" y="70" width="516" height="282" fill="url(#wall)"/>
+<rect x="99" y="22" width="442" height="64" rx="10" fill="#255e50"/><rect x="107" y="30" width="426" height="48" rx="6" fill="none" stroke="#95b391"/><text x="320" y="62" text-anchor="middle" fill="#fff4d9" font-size="27" font-weight="700" letter-spacing="7">姚舒琴的小食铺</text><path d="M80 87H560L585 145H55Z" fill="url(#awning)"/><path d="M55 145H585V156Q566 179 547 156Q528 179 509 156Q490 179 471 156Q452 179 433 156Q414 179 395 156Q376 179 357 156Q338 179 319 156Q300 179 281 156Q262 179 243 156Q224 179 205 156Q186 179 167 156Q148 179 129 156Q110 179 91 156Q72 179 55 156Z" fill="url(#awning)"/>
+<rect x="116" y="183" width="275" height="123" rx="6" fill="#315e4f"/><rect x="125" y="192" width="257" height="104" fill="url(#window)"/><path d="M190 192V296M310 192V296M125 246H382" stroke="#dde6cc" stroke-width="6"/><path d="M130 198L184 240M206 198L252 236" stroke="#f5f4dc" opacity=".3" stroke-width="14"/>
+<rect x="417" y="186" width="111" height="119" rx="5" fill="#926647"/><rect x="424" y="193" width="97" height="105" rx="3" fill="#325648"/><text x="472" y="216" text-anchor="middle" fill="#f4e9c9" font-size="13">今日手作</text><path d="M441 225H505" stroke="#a5b293"/><text x="437" y="247" fill="#f4e9c9" font-size="13">奶茶 · 饭团</text><text x="437" y="270" fill="#f4e9c9" font-size="13">好好吃饭 ♡</text><path d="M452 284H493" stroke="#8ea483"/>
+<g id="owner"><path d="M254 311Q253 264 279 260H319Q344 264 346 311" fill="#fcf8ec"/><path d="M279 267L298 282L319 267V316H278Z" fill="#e27b55"/><circle cx="299" cy="235" r="33" fill="#f3ba92"/><path d="M266 235Q258 198 297 197Q334 198 333 234L322 221Q297 228 276 219L275 236Z" fill="#3b4538"/><path d="M266 207Q249 199 257 187Q264 176 279 182Q286 162 302 174Q321 165 328 183Q348 181 344 199L331 210Z" fill="#fffdf1"/><path d="M267 204H332V215H267Z" fill="#f4e4cc"/><ellipse cx="287" cy="238" rx="2.8" ry="3.6" fill="#3f4033"/><ellipse cx="312" cy="238" rx="2.8" ry="3.6" fill="#3f4033"/><path d="M290 250Q299 259 308 250" fill="none" stroke="#9b5948" stroke-width="2.5" stroke-linecap="round"/><circle cx="277" cy="247" r="5" fill="#e9917e" opacity=".6"/><circle cx="322" cy="247" r="5" fill="#e9917e" opacity=".6"/><path d="M259 285L241 309M337 284L350 303" stroke="#f3ba92" stroke-width="15" stroke-linecap="round"/></g>
+<g class="steam" stroke="#fff9ea" fill="none" stroke-width="3" stroke-linecap="round"><path d="M176 274Q167 265 176 255Q185 245 176 236"/><path d="M196 274Q187 265 196 255Q205 245 196 236"/></g><path d="M153 281H220L213 304H160Z" fill="#e2b172"/><path d="M150 281H223" stroke="#6c5b40" stroke-width="5"/>
+<rect x="93" y="303" width="454" height="17" rx="5" fill="#95683f"/><rect x="106" y="320" width="428" height="38" fill="#cc9b61"/><path d="M135 325V355M190 325V355M245 325V355M300 325V355M355 325V355M410 325V355M465 325V355M520 325V355" stroke="#b78955" stroke-width="2"/><rect x="267" y="323" width="108" height="29" rx="4" fill="#f8ead0"/><text x="321" y="343" text-anchor="middle" fill="#735740" font-size="15" font-weight="700">老板：姚舒琴</text>
+<g><path d="M36 322Q10 288 30 276Q47 286 45 315Q35 268 54 256Q74 280 54 316Q67 285 81 295Q84 315 60 329" fill="#518266"/><path d="M28 323H73L66 359H36Z" fill="#d27e56"/></g><g><path d="M576 324Q548 290 570 279Q586 289 581 316Q578 277 598 269Q613 291 590 321Q608 300 622 308Q622 325 596 329" fill="#72935a"/><path d="M565 325H612L604 359H573Z" fill="#e0ad69"/></g><rect y="358" width="640" height="12" fill="#b9bea2"/>
+</svg>
+<div class="owner-message" id="owner-message">“欢迎光临！今天也要好好吃饭。”</div>
+</div>
+<div class="queue-heading"><h2>门口的客人 <span id="queue-count">0 / 3</span></h2><span id="combo" class="combo">做一份热乎的心意</span></div>
+<div class="customers" id="customers"></div>
+<div class="daily-mission"><span class="mission-icon">🎁</span><div><strong>今日小目标</strong><p id="mission-text">招待 5 位客人，奖励 35 金币</p></div><span id="mission-count">0 / 5</span></div>
+</section>
+<section class="control-side" aria-label="经营操作">
+<div class="shift-card"><div class="section-row"><div><p class="eyebrow">今日营业</p><h2 id="shift-title">美好的一天，从开张开始</h2></div><span class="timer" id="timer">02:00</span></div><div class="goal-label"><span>营业额 <b id="revenue">0</b> <small id="goal">/ 150</small></span><span>达标奖励 <b>+60</b></span></div><div class="progress-track"><div id="revenue-bar"></div></div><button class="primary-btn" id="start">开始营业</button><p class="shift-tip" id="shift-tip">每局 2 分钟 · 随时暂停 · 自动保存进度</p></div>
+<div class="workbench"><div class="tabs" role="tablist" aria-label="经营区域"><button class="tab active" id="kitchen-tab" role="tab" aria-selected="true" aria-controls="kitchen">我的厨房</button><button class="tab" id="upgrade-tab" role="tab" aria-selected="false" aria-controls="upgrades">升级小店</button></div>
+<div id="kitchen" role="tabpanel" aria-labelledby="kitchen-tab"><div class="kitchen-heading"><h2>今天，做点好吃的</h2><p>点击餐品制作，备好后点客人上餐</p></div><div id="recipes" class="recipes"></div><div class="step-hint" id="step-hint"><span>1 看订单</span><i>·</i><span>2 做餐品</span><i>·</i><span>3 点客人上餐</span></div></div>
+<div id="upgrades" role="tabpanel" aria-labelledby="upgrade-tab" hidden><div class="kitchen-heading"><h2>把小店变成理想的样子</h2><p>升级永久保留，营业中也可以购买</p></div><div id="upgrade-list"></div></div>
+</div>
+<button class="rescue" id="rescue" hidden>领取应急食材金 +15</button>
+<div class="shop-footer"><span id="save-state">✓ 进度自动保存在本机</span><button id="sound" aria-pressed="false">音效：关</button></div>
+</section></div>
+<footer class="page-footer"><span>姚舒琴的小食铺</span><span>慢慢经营，把日子过得有滋有味。</span></footer>
+</main>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<dialog id="modal"><button class="modal-close icon-btn" id="close-modal" aria-label="关闭弹窗">×</button><div id="modal-body"></div></dialog>
+<script src="engine.js"></script><script src="game.js"></script>
+</body></html>
