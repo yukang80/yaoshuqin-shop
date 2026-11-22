@@ -1,0 +1,17 @@
+{
+  "name": "霓港 · 自由街区",
+  "short_name": "霓港",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "background_color": "#17323d",
+  "theme_color": "#17323d",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
